@@ -4,7 +4,7 @@
 -- yellow - #ffdd33 (control, storage.type)
 -- green - #79bf46 (string,)
 -- storage? - ff0000
--- orange - #ff9b21 (comment)
+-- orange - ##f0a141
 -- macro - #bfc5bf
 -- const - ##bfc5bf
 -- error - #F44747
@@ -27,7 +27,7 @@ local nord = {
     glacier = "#81A1C1", -- nord9 in palette
     blue = "#5E81AC", -- nord10 in palette
     red = "#FF0000", -- x nord11 in palette
-    orange = "#FF9B21", -- x nord12 in palette
+    orange = "#f0a141", -- x nord12 in palette
     yellow = "#FFDD33", -- x nord13 in palette
     green = "#79BF46", -- x nord14 in palette
     debug = "#B267E6",
