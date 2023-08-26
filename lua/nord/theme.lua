@@ -270,7 +270,7 @@ theme.loadEditor = function()
         },
         PmenuSbar = {
             fg = named_colors.white,
-            bg = named_colors.dark
+            bg = named_colors.red
         },
         PmenuThumb = {
             fg = named_colors.white,
