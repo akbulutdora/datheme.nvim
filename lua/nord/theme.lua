@@ -719,7 +719,7 @@ theme.loadTreeSitter = function()
             fg = nord.nord8_gui
         }, -- For delimiters ie: `.`
         TSPunctBracket = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         }, -- For brackets and parens.
         TSPunctSpecial = {
             fg = nord.nord8_gui
@@ -728,10 +728,10 @@ theme.loadTreeSitter = function()
             fg = nord.nord15_gui
         }, -- For identifiers referring to symbols or atoms.
         TSType = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- For types.
         TSTypeBuiltin = {
-            fg = nord.nord9_gui
+            fg = named_colors.darkest_white
         }, -- For builtin types.
         TSTag = {
             fg = nord.nord4_gui
@@ -796,7 +796,7 @@ theme.loadTreeSitter = function()
             fg = nord.nord9_gui
         },
         ["@parameter"] = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         ["@punctuation.delimiter"] = {
             fg = nord.nord8_gui
@@ -2353,7 +2353,7 @@ theme.loadPlugins = function()
             fg = nord.nord9_gui
         },
         AerialTypeParameter = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         AerialVariable = {
             fg = nord.nord4_gui,
