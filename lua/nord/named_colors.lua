@@ -20,7 +20,7 @@ local nord = {
     light_gray = "#4C566A", -- nord3 in palette
     light_gray_bright = "#616E88", -- out of palette
     darkest_white = "#bfc5bf", -- nord4 in palette
-    darker_white = "#E5E9F0", -- nord5 in palette
+    darker_white = "#a582822a", -- nord5 in palette
     white = "#e2e2e2", -- nord6 in palette
     teal = "#8FBCBB", -- nord7 in palette
     off_blue = "#88C0D0", -- nord8 in palette
@@ -31,6 +31,7 @@ local nord = {
     yellow = "#FFDD33", -- x nord13 in palette
     green = "#79BF46", -- x nord14 in palette
     purple = "#B48EAD", -- nord15 in palette
+    debug = "#B267E6",
     none = "NONE"
 }
 return nord

@@ -1369,7 +1369,7 @@ theme.loadPlugins = function()
             fg = nord.nord4_gui
         },
         TelescopeSelectionCaret = {
-            fg = nord.nord9_gui
+            fg = named_colors.darker_white
         },
         TelescopeSelection = {
             fg = nord.nord6_gui,
