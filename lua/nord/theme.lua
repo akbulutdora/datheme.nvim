@@ -26,19 +26,19 @@ theme.loadSyntax = function()
             fg = named_colors.white
         }, -- static, register, volatile, etc.
         Structure = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- struct, union, enum, etc.
         Constant = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         }, -- any constant
         Character = {
-            fg = nord.nord14_gui
+            fg = named_colors.green
         }, -- any character constant: 'c', '\n'
         Number = {
             fg = named_colors.white
         }, -- a number constant: 5
         Boolean = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- a boolean constant: TRUE, false
         Float = {
             fg = named_colors.white
@@ -760,7 +760,7 @@ theme.loadTreeSitter = function()
             fg = nord.nord14_gui
         }, -- Any URI like a link or email.
         TSAnnotation = {
-            fg = nord.nord11_gui
+            fg = named_colors.darkest_white
         }, -- For C++/Dart attributes, annotations that can be attached to the code to denote some kind of meta information.
         ["@constructor"] = {
             fg = nord.nord9_gui
@@ -936,7 +936,7 @@ theme.loadTreeSitter = function()
         style = italic
     } -- For fuction (calls and definitions).
     treesitter.TSMethod = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = italic
     } -- For method calls and definitions.
     treesitter.TSFuncBuiltin = {
