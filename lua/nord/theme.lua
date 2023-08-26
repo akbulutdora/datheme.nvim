@@ -74,7 +74,7 @@ theme.loadSyntax = function()
             fg = named_colors.darkest_white
         }, -- preprocessor #if, #else, #endif, etc.
         Special = {
-            fg = named_colors.red
+            fg = named_colors.white
         }, -- any special symbol
         SpecialChar = {
             fg = named_colors.teal
@@ -655,7 +655,7 @@ end
 
 theme.loadTerminal = function()
     vim.g.terminal_color_0 = named_colors.white;
-    vim.g.terminal_color_1 = named_colors.red;
+    vim.g.terminal_color_1 = named_colors.white;
     vim.g.terminal_color_2 = named_colors.white;
     vim.g.terminal_color_3 = named_colors.white;
     vim.g.terminal_color_4 = named_colors.white
