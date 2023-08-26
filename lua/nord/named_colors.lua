@@ -1,5 +1,6 @@
 -- My colors
--- bg - #e2e2e2
+-- bg - #181818
+-- white - #e2e2e2
 -- yellow - #ffdd33 (control, storage.type)
 -- green - #79bf46 (string,)
 -- storage? - ff0000
@@ -9,11 +10,11 @@
 -- error - #F44747
 -- warn - #CD9731
 -- debug - #B267E6
--- info - #6796E6
+-- info - #6796E6 
 --
 local nord = {
     -- 16 colors
-    black = "#E2E2E2", -- x nord0 in palette
+    black = "#181818", -- x nord0 in palette
     dark_gray = "#3B4252", -- nord1 in palette
     gray = "#434C5E", -- nord2 in palette
     light_gray = "#4C566A", -- nord3 in palette
