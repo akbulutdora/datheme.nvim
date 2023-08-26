@@ -366,7 +366,7 @@ theme.loadEditor = function()
         },
         WildMenu = {
             fg = named_colors.white,
-            bg = nord.none,
+            bg = named_colors.dark,
             style = bold
         },
         CursorColumn = {
