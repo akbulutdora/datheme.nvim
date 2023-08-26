@@ -244,7 +244,7 @@ theme.loadEditor = function()
             fg = named_colors.white
         },
         CursorLineNr = {
-            fg = named_colors.white
+            fg = named_colors.yellow
         },
         MatchParen = {
             fg = named_colors.white,
