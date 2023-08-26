@@ -927,7 +927,7 @@ theme.loadTreeSitter = function()
     }
     -- Conditionals
     treesitter.TSConditional = {
-        fg = nord.nord9_gui,
+        fg = named_colors.yellow,
         style = italic
     } -- For keywords related to conditionnals.
     -- Function names
@@ -1000,7 +1000,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@conditional"] = {
-        fg = nord.nord9_gui,
+        fg = named_colors.yellow,
         style = italic
     }
     treesitter["@function"] = {
