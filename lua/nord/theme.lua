@@ -655,7 +655,7 @@ end
 
 theme.loadTerminal = function()
     vim.g.terminal_color_0 = nord.nord1_gui
-    vim.g.terminal_color_1 = nord.nord11_gui
+    vim.g.terminal_color_1 = named_colors.red
     vim.g.terminal_color_2 = nord.nord14_gui
     vim.g.terminal_color_3 = nord.nord13_gui
     vim.g.terminal_color_4 = nord.nord9_gui
@@ -663,7 +663,7 @@ theme.loadTerminal = function()
     vim.g.terminal_color_6 = nord.nord8_gui
     vim.g.terminal_color_7 = nord.nord5_gui
     vim.g.terminal_color_8 = nord.nord3_gui
-    vim.g.terminal_color_9 = named_colors.red
+    vim.g.terminal_color_9 = named_colors.white
     vim.g.terminal_color_10 = nord.nord14_gui
     vim.g.terminal_color_11 = nord.nord13_gui
     vim.g.terminal_color_12 = nord.nord9_gui
