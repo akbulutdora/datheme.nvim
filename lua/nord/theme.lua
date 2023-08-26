@@ -65,10 +65,10 @@ theme.loadSyntax = function()
             fg = nord.nord9_gui
         }, -- preprocessor #define
         Macro = {
-            fg = nord.nord9_gui
+            fg = named_colors.darkest_white
         }, -- same as Define
         Typedef = {
-            fg = nord.nord9_gui
+            fg = named_colors.yellow
         }, -- A typedef
         PreCondit = {
             fg = nord.nord13_gui
@@ -89,7 +89,7 @@ theme.loadSyntax = function()
             fg = nord.nord8_gui
         }, -- special things inside a comment
         Debug = {
-            fg = nord.nord11_gui
+            fg = named_colors.debug
         }, -- debugging statements
         Underlined = {
             fg = nord.nord14_gui,
@@ -159,7 +159,7 @@ theme.loadSyntax = function()
             style = bold_underline
         }, -- any erroneous construct with bold
         Comment = {
-            fg = nord.nord3_gui_bright,
+            fg = named_colors.orange,
             style = italic
         }, -- italic comments
         Conditional = {
@@ -167,7 +167,7 @@ theme.loadSyntax = function()
             style = italic
         }, -- italic if, then, else, endif, switch, etc.
         Function = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = italic
         }, -- italic funtion names
         Identifier = {
@@ -183,7 +183,7 @@ theme.loadSyntax = function()
             style = italic
         }, -- italic any other keyword
         String = {
-            fg = nord.nord14_gui,
+            fg = named_colors.green,
             style = italic
         } -- any string
     }

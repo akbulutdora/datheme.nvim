@@ -17,7 +17,7 @@ local dark_colors = {
     nord11_gui = named_colors.green, -- nord11 in palette
     nord12_gui = named_colors.green, -- nord12 in palette
     nord13_gui = named_colors.green, -- nord13 in palette
-    nord14_gui = named_colors.green, -- nord14 in palette
+    nord14_gui = named_colors.teal, -- nord14 in palette
     nord15_gui = named_colors.green, -- nord15 in palette
     none = "NONE"
 }
