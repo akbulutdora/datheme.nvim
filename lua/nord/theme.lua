@@ -262,19 +262,19 @@ theme.loadEditor = function()
         },
         Pmenu = {
             fg = named_colors.white,
-            bg = named_colors.white
+            bg = named_colors.dark
         },
         PmenuSel = {
             fg = named_colors.white,
-            bg = named_colors.white
+            bg = named_colors.dark
         },
         PmenuSbar = {
             fg = named_colors.white,
-            bg = named_colors.white
+            bg = named_colors.dark
         },
         PmenuThumb = {
             fg = named_colors.white,
-            bg = named_colors.white
+            bg = named_colors.dark
         },
         Question = {
             fg = named_colors.white
