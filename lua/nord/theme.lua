@@ -274,7 +274,7 @@ theme.loadEditor = function()
         },
         PmenuThumb = {
             fg = named_colors.white,
-            bg = named_colors.dark
+            bg = named_colors.green
         },
         Question = {
             fg = named_colors.white
