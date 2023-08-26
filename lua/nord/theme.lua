@@ -266,7 +266,7 @@ theme.loadEditor = function()
         },
         PmenuSel = {
             fg = named_colors.white,
-            bg = named_colors.dark
+            bg = named_colors.gray
         },
         PmenuSbar = {
             fg = named_colors.white,
