@@ -8,16 +8,16 @@ local dark_colors = {
     nord3_gui_bright = named_colors.orange, -- x out of palette x
     nord4_gui = named_colors.debug, -- x nord4 in palette x
     nord5_gui = named_colors.info, -- nord5 in palette
-    nord6_gui = named_colors.orange, -- nord6 in palette
-    nord7_gui = named_colors.orange, -- nord7 in palette
-    nord8_gui = named_colors.orange, -- nord8 in palette
-    nord9_gui = named_colors.orange, -- nord9 in palette
-    nord10_gui = named_colors.orange, -- nord10 in palette
-    nord11_gui = named_colors.orange, -- nord11 in palette
-    nord12_gui = named_colors.orange, -- nord12 in palette
-    nord13_gui = named_colors.orange, -- nord13 in palette
-    nord14_gui = named_colors.orange, -- nord14 in palette
-    nord15_gui = named_colors.orange, -- nord15 in palette
+    nord6_gui = named_colors.white, -- nord6 in palette
+    nord7_gui = named_colors.green, -- nord7 in palette
+    nord8_gui = named_colors.green, -- nord8 in palette
+    nord9_gui = named_colors.green, -- nord9 in palette
+    nord10_gui = named_colors.green, -- nord10 in palette
+    nord11_gui = named_colors.green, -- nord11 in palette
+    nord12_gui = named_colors.green, -- nord12 in palette
+    nord13_gui = named_colors.green, -- nord13 in palette
+    nord14_gui = named_colors.green, -- nord14 in palette
+    nord15_gui = named_colors.green, -- nord15 in palette
     none = "NONE"
 }
 
