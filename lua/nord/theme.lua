@@ -701,7 +701,7 @@ theme.loadTreeSitter = function()
             fg = nord.nord7_gui
         }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
         TSInclude = {
-            fg = nord.nord9_gui
+            fg = named_colors.darkest_white
         }, -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
         TSLabel = {
             fg = nord.nord15_gui
