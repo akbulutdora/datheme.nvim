@@ -35,13 +35,13 @@ theme.loadSyntax = function()
             fg = nord.nord14_gui
         }, -- any character constant: 'c', '\n'
         Number = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- a number constant: 5
         Boolean = {
             fg = nord.nord9_gui
         }, -- a boolean constant: TRUE, false
         Float = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- a floating point constant: 2.3e10
         Statement = {
             fg = nord.nord9_gui
@@ -50,7 +50,7 @@ theme.loadSyntax = function()
             fg = nord.nord9_gui
         }, -- case, default, etc.
         Operator = {
-            fg = nord.nord9_gui
+            fg = named_colors.whit
         }, -- sizeof", "+", "*", etc.
         Exception = {
             fg = nord.nord9_gui
@@ -59,10 +59,10 @@ theme.loadSyntax = function()
             fg = nord.nord9_gui
         }, -- generic Preprocessor
         Include = {
-            fg = nord.nord9_gui
+            fg = named_colors.darkest_white
         }, -- preprocessor #include
         Define = {
-            fg = nord.nord9_gui
+            fg = named_colors.darkest_white
         }, -- preprocessor #define
         Macro = {
             fg = named_colors.darkest_white
@@ -83,10 +83,10 @@ theme.loadSyntax = function()
             fg = nord.nord4_gui
         }, -- you can use CTRL-] on this
         Delimiter = {
-            fg = nord.nord6_gui
+            fg = named_colors.white
         }, -- character that needs attention like , or .
         SpecialComment = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         }, -- special things inside a comment
         Debug = {
             fg = named_colors.debug
@@ -100,8 +100,8 @@ theme.loadSyntax = function()
             fg = nord.nord1_gui
         }, -- left blank, hidden
         Todo = {
-            fg = nord.nord13_gui,
-            bg = nord.none,
+            fg = named_colors.yellow,
+            bg = named_colors.black,
             style = bold_italic
         }, -- anything that needs extra attention; mostly the keywords TODO FIXME and XXX
         Conceal = {
