@@ -16,7 +16,7 @@ local nord = {
     -- 16 colors
     black = "#181818", -- x nord0 in palette
     dark_gray = "#3B4252", -- nord1 in palette
-    gray = "#434C5E", -- nord2 in palette
+    gray = "#525252", -- x nord2 in palette
     light_gray = "#4C566A", -- nord3 in palette
     light_gray_bright = "#616E88", -- out of palette
     darkest_white = "#bfc5bf", -- nord4 in palette

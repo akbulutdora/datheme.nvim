@@ -80,7 +80,7 @@ theme.loadSyntax = function()
             fg = named_colors.teal
         }, -- special character in a constant
         Tag = {
-            fg = named_colors.purple
+            fg = named_colors.white
         }, -- you can use CTRL-] on this
         Delimiter = {
             fg = named_colors.white
@@ -355,7 +355,7 @@ theme.loadEditor = function()
         },
         Visual = {
             fg = nord.none,
-            bg = nord.nord2_gui
+            bg = named_colors.gray
         },
         VisualNOS = {
             fg = nord.none,
