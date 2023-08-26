@@ -966,7 +966,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter.TSKeywordReturn = {
-        fg = nord.nord8_gui,
+        fg = nord.yellow,
         style = italic
     }
     treesitter.TSKeywordOperator = {
@@ -1036,7 +1036,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@keyword.return"] = {
-        fg = nord.nord8_gui,
+        fg = nord.yellow,
         style = italic
     }
     treesitter["@keyword.operator"] = {
