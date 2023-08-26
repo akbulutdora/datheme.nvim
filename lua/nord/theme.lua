@@ -26,7 +26,7 @@ theme.loadSyntax = function()
             fg = named_colors.white
         }, -- static, register, volatile, etc.
         Structure = {
-            fg = named_colors.white
+            fg = named_colors.yellow
         }, -- struct, union, enum, etc.
         Constant = {
             fg = named_colors.white
@@ -44,19 +44,19 @@ theme.loadSyntax = function()
             fg = named_colors.white
         }, -- a floating point constant: 2.3e10
         Statement = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- any statement
         Label = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- case, default, etc.
         Operator = {
-            fg = named_colors.whit
+            fg = named_colors.white
         }, -- sizeof", "+", "*", etc.
         Exception = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- try, catch, throw
         PreProc = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- generic Preprocessor
         Include = {
             fg = named_colors.darkest_white
@@ -74,7 +74,7 @@ theme.loadSyntax = function()
             fg = named_colors.darkest_white
         }, -- preprocessor #if, #else, #endif, etc.
         Special = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         }, -- any special symbol
         SpecialChar = {
             fg = nord.nord13_gui
