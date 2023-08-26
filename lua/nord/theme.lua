@@ -23,7 +23,7 @@ theme.loadSyntax = function()
             fg = named_colors.darkest_white
         }, -- int, long, char, etc.
         StorageClass = {
-            fg = nord.nord9_gui
+            fg = named_colors.white
         }, -- static, register, volatile, etc.
         Structure = {
             fg = nord.nord9_gui
