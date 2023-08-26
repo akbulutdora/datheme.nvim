@@ -713,7 +713,7 @@ theme.loadTreeSitter = function()
             fg = named_colors.white
         }, -- For parameters of a function.
         TSParameterReference = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- For references to parameters of a function.
         TSPunctDelimiter = {
             fg = nord.nord8_gui
