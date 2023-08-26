@@ -56,7 +56,7 @@ theme.loadSyntax = function()
             fg = named_colors.white
         }, -- try, catch, throw
         PreProc = {
-            fg = named_colors.white
+            fg = named_colors.darkest_white
         }, -- generic Preprocessor
         Include = {
             fg = named_colors.darkest_white
