@@ -92,12 +92,12 @@ theme.loadSyntax = function()
             fg = named_colors.debug
         }, -- debugging statements
         Underlined = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "underline"
         }, -- text that stands out, HTML links
         Ignore = {
-            fg = nord.nord1_gui
+            fg = named_colors.white
         }, -- left blank, hidden
         Todo = {
             fg = named_colors.yellow,
@@ -109,32 +109,32 @@ theme.loadSyntax = function()
             bg = named_colors.black
         },
         htmlLink = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = "underline"
         },
         markdownH1Delimiter = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         markdownH2Delimiter = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         markdownH3Delimiter = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         htmlH1 = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = bold
         },
         htmlH2 = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             style = bold
         },
         htmlH3 = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = bold
         },
         htmlH4 = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             style = bold
         },
         htmlH5 = {
@@ -142,19 +142,19 @@ theme.loadSyntax = function()
             style = bold
         },
         markdownH1 = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = bold
         },
         markdownH2 = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             style = bold
         },
         markdownH3 = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = bold
         },
         Error = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = bold_underline
         }, -- any erroneous construct with bold
@@ -194,19 +194,19 @@ theme.loadEditor = function()
 
     local editor = {
         NormalFloat = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         }, -- normal text and background color
         FloatBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         }, -- normal text and background color
         ColorColumn = {
             fg = nord.none,
-            bg = nord.nord1_gui
+            bg = named_colors.white
         }, -- used for the columns set with 'colorcolumn'
         Conceal = {
-            fg = nord.nord1_gui
+            fg = named_colors.white
         }, -- placeholder characters substituted for concealed text (see 'conceallevel')
         Cursor = {
             fg = named_colors.black,
@@ -214,104 +214,104 @@ theme.loadEditor = function()
             style = "reverse"
         }, -- the character under the cursor
         CursorIM = {
-            fg = nord.nord5_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         }, -- like Cursor, but used when in IME mode
         Directory = {
-            fg = nord.nord7_gui,
+            fg = named_colors.white,
             bg = nord.none
         }, -- directory names (and other special names in listings)
         EndOfBuffer = {
-            fg = nord.nord1_gui
+            fg = named_colors.white
         },
         ErrorMsg = {
             fg = nord.none
         },
         Folded = {
-            fg = nord.nord3_gui_bright,
+            fg = named_colors.white,
             bg = nord.none,
             style = italic
         },
         FoldColumn = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         IncSearch = {
-            fg = nord.nord6_gui,
-            bg = nord.nord10_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         LineNr = {
-            fg = nord.nord3_gui_bright
+            fg = named_colors.white
         },
         CursorLineNr = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         MatchParen = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = bold
         },
         ModeMsg = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         MoreMsg = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NonText = {
-            fg = nord.nord1_gui
+            fg = named_colors.white
         },
         Pmenu = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         PmenuSel = {
-            fg = nord.nord4_gui,
-            bg = nord.nord10_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         PmenuSbar = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         PmenuThumb = {
-            fg = nord.nord4_gui,
-            bg = nord.nord4_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         Question = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         QuickFixLine = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         },
         qfLineNr = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         },
         Search = {
-            fg = nord.nord6_gui,
-            bg = nord.nord10_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         Substitute = {
             fg = named_colors.black,
-            bg = nord.nord12_gui
+            bg = named_colors.white
         },
         SpecialKey = {
             fg = named_colors.white
         },
         SpellBad = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = italic_undercurl
         },
         SpellCap = {
-            fg = nord.nord7_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = italic_undercurl
         },
         SpellLocal = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = italic_undercurl
         },
@@ -321,35 +321,35 @@ theme.loadEditor = function()
             style = italic_undercurl
         },
         StatusLine = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         StatusLineNC = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         StatusLineTerm = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         StatusLineTermNC = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         TabLineFill = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none
         },
         TablineSel = {
-            fg = nord.nord1_gui,
+            fg = named_colors.white,
             bg = named_colors.white
         },
         Tabline = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         Title = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = bold
         },
@@ -359,13 +359,13 @@ theme.loadEditor = function()
         },
         VisualNOS = {
             fg = nord.none,
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
         WarningMsg = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         WildMenu = {
-            fg = nord.nord12_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = bold
         },
@@ -378,26 +378,26 @@ theme.loadEditor = function()
             bg = nord.cursorlinefg
         },
         ToolbarLine = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         ToolbarButton = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = bold
         },
         NormalMode = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         },
         InsertMode = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         },
         ReplacelMode = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         },
@@ -407,36 +407,36 @@ theme.loadEditor = function()
             style = "reverse"
         },
         CommandMode = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         },
         Warnings = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
 
         healthError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         healthSuccess = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         healthWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
 
         -- dashboard
         DashboardShortCut = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         DashboardHeader = {
             fg = named_colors.white
         },
         DashboardCenter = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DashboardFooter = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = italic
         },
 
@@ -446,133 +446,133 @@ theme.loadEditor = function()
         },
 
         BufferCurrent = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         BufferCurrentMod = {
-            bg = nord.nord1_gui,
-            fg = nord.nord15_gui
+            bg = named_colors.white,
+            fg = named_colors.white
         },
         BufferCurrentIcon = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         BufferCurrentSign = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         BufferCurrentIndex = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         BufferCurrentTarget = {
-            bg = nord.nord1_gui,
-            fg = nord.nord11_gui
+            bg = named_colors.white,
+            fg = named_colors.white
         },
 
         BufferInactive = {
             bg = named_colors.black,
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         BufferInactiveMod = {
             bg = named_colors.black,
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         BufferInactiveIcon = {
             bg = named_colors.black,
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         BufferInactiveSign = {
             bg = named_colors.black,
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         BufferInactiveIndex = {
             bg = named_colors.black,
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         BufferInactiveTarget = {
             bg = named_colors.black,
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
 
         BufferVisible = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
         BufferVisibleMod = {
-            bg = nord.nord2_gui,
-            fg = nord.nord15_gui
+            bg = named_colors.white,
+            fg = named_colors.white
         },
         BufferVisibleIcon = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
         BufferVisibleSign = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
         BufferVisibleIndex = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
         BufferVisibleTarget = {
-            bg = nord.nord2_gui,
-            fg = nord.nord11_gui
+            bg = named_colors.white,
+            fg = named_colors.white
         },
 
         -- nvim-notify
         NotifyDEBUGBorder = {
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         NotifyDEBUGIcon = {
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         NotifyDEBUGTitle = {
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         NotifyERRORBorder = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         NotifyERRORIcon = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         NotifyERRORTitle = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         NotifyINFOBorder = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         NotifyINFOIcon = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         NotifyINFOTitle = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         NotifyTRACEBorder = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         NotifyTRACEIcon = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         NotifyTRACETitle = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         NotifyWARNBorder = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         NotifyWARNIcon = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         NotifyWARNTitle = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
 
         -- leap.nvim
         LeapMatch = {
             style = "underline,nocombine",
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         LeapLabelPrimary = {
             style = "nocombine",
             fg = named_colors.black,
-            bg = nord.nord13_gui
+            bg = named_colors.white
         },
         LeapLabelSecondary = {
             style = "nocombine",
             fg = named_colors.black,
-            bg = nord.nord15_gui
+            bg = named_colors.white
         }
     }
 
@@ -581,20 +581,20 @@ theme.loadEditor = function()
     -- Set transparent background
     if vim.g.nord_disable_background then
         editor.Normal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none
         } -- normal text and background color
         editor.SignColumn = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none
         }
     else
         editor.Normal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = named_colors.black
         } -- normal text and background color
         editor.SignColumn = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = named_colors.black
         }
     end
@@ -602,7 +602,7 @@ theme.loadEditor = function()
     -- Remove window split borders
     if vim.g.nord_borders then
         editor.VertSplit = {
-            fg = nord.nord2_gui
+            fg = named_colors.white
         }
     else
         editor.VertSplit = {
@@ -612,39 +612,39 @@ theme.loadEditor = function()
 
     if vim.g.nord_uniform_diff_background then
         editor.DiffAdd = {
-            fg = nord.nord14_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         } -- diff mode: Added line
         editor.DiffChange = {
-            fg = nord.nord13_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         } -- diff mode: Changed line
         editor.DiffDelete = {
-            fg = nord.nord11_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         } -- diff mode: Deleted line
         editor.DiffText = {
-            fg = nord.nord15_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         } -- diff mode: Changed text within a changed line
     else
         editor.DiffAdd = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         } -- diff mode: Added line
         editor.DiffChange = {
-            fg = nord.nord13_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         } -- diff mode: Changed line
         editor.DiffDelete = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         } -- diff mode: Deleted line
         editor.DiffText = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "reverse"
         } -- diff mode: Changed text within a changed line
@@ -654,22 +654,22 @@ theme.loadEditor = function()
 end
 
 theme.loadTerminal = function()
-    vim.g.terminal_color_0 = nord.nord1_gui
-    vim.g.terminal_color_1 = named_colors.red
-    vim.g.terminal_color_2 = nord.nord14_gui
-    vim.g.terminal_color_3 = nord.nord13_gui
+    vim.g.terminal_color_0 = named_colors.white;
+    vim.g.terminal_color_1 = named_colors.red;
+    vim.g.terminal_color_2 = named_colors.white;
+    vim.g.terminal_color_3 = named_colors.white;
     vim.g.terminal_color_4 = named_colors.white
-    vim.g.terminal_color_5 = nord.nord15_gui
-    vim.g.terminal_color_6 = nord.nord8_gui
-    vim.g.terminal_color_7 = nord.nord5_gui
-    vim.g.terminal_color_8 = nord.nord3_gui
+    vim.g.terminal_color_5 = named_colors.white;
+    vim.g.terminal_color_6 = named_colors.white;
+    vim.g.terminal_color_7 = named_colors.white;
+    vim.g.terminal_color_8 = named_colors.white;
     vim.g.terminal_color_9 = named_colors.white
-    vim.g.terminal_color_10 = nord.nord14_gui
-    vim.g.terminal_color_11 = nord.nord13_gui
+    vim.g.terminal_color_10 = named_colors.white;
+    vim.g.terminal_color_11 = named_colors.white;
     vim.g.terminal_color_12 = named_colors.white
-    vim.g.terminal_color_13 = nord.nord15_gui
-    vim.g.terminal_color_14 = nord.nord7_gui
-    vim.g.terminal_color_15 = nord.nord6_gui
+    vim.g.terminal_color_13 = named_colors.white;
+    vim.g.terminal_color_14 = named_colors.white;
+    vim.g.terminal_color_15 = named_colors.white;
 end
 
 theme.loadTreeSitter = function()
@@ -680,31 +680,31 @@ theme.loadTreeSitter = function()
             fg = named_colors.white
         }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
         TSConstant = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- For constants
         TSFloat = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- For floats
         TSNumber = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- For all number
         TSAttribute = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- (unstable) TODO: docs
         TSError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- For syntax/parser errors.
         TSException = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- For exception related keywords.
         TSFuncMacro = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
         TSInclude = {
             fg = named_colors.darkest_white
         }, -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
         TSLabel = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- For labels: `label:` in C and `:label:` in Lua.
         TSOperator = {
             fg = named_colors.white
@@ -716,16 +716,16 @@ theme.loadTreeSitter = function()
             fg = named_colors.white
         }, -- For references to parameters of a function.
         TSPunctDelimiter = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         }, -- For delimiters ie: `.`
         TSPunctBracket = {
             fg = named_colors.white
         }, -- For brackets and parens.
         TSPunctSpecial = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         }, -- For special punctutation that does not fall in the catagories before.
         TSSymbol = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- For identifiers referring to symbols or atoms.
         TSType = {
             fg = named_colors.white
@@ -734,30 +734,30 @@ theme.loadTreeSitter = function()
             fg = named_colors.darkest_white
         }, -- For builtin types.
         TSTag = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         }, -- Tags like html tag names.
         TSTagDelimiter = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- Tag delimiter like `<` `>` `/`
         TSText = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         }, -- For strings considenord11_gui text in a markup language.
         TSTextReference = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- FIXME
         TSEmphasis = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- For text to be represented with emphasis.
         TSUnderline = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "underline"
         }, -- For text to be represented with an underline.
         TSLiteral = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         }, -- Literal text.
         TSURI = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         }, -- Any URI like a link or email.
         TSAnnotation = {
             fg = named_colors.darkest_white
@@ -766,31 +766,31 @@ theme.loadTreeSitter = function()
             fg = named_colors.white
         },
         ["@constant"] = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         ["@float"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@number"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@attribute"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@error"] = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         ["@exception"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@funtion.macro"] = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         ["@include"] = {
             fg = named_colors.white
         },
         ["@label"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@operator"] = {
             fg = named_colors.white
@@ -799,16 +799,16 @@ theme.loadTreeSitter = function()
             fg = named_colors.white
         },
         ["@punctuation.delimiter"] = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         ["@punctuation.bracket"] = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         ["@punctuation.special"] = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         ["@symbol"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@type"] = {
             fg = named_colors.white
@@ -817,33 +817,33 @@ theme.loadTreeSitter = function()
             fg = named_colors.white
         },
         ["@tag"] = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         ["@tag.delimiter"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@text"] = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         ["@text.reference"] = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         ["@text.emphasis"] = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         ["@text.underline"] = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none,
             style = "underline"
         },
         ["@text.literal"] = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         ["@text.uri"] = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         ["@text.strike"] = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = "strikethrough"
         }
 
@@ -862,7 +862,7 @@ theme.loadTreeSitter = function()
     }
 
     treesitter.TSVariableBuiltin = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter.TSBoolean = {
@@ -870,32 +870,32 @@ theme.loadTreeSitter = function()
         style = bold
     }
     treesitter.TSConstBuiltin = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter.TSConstMacro = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter.TSVariable = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter.TSTitle = {
-        fg = nord.nord10_gui,
+        fg = named_colors.white,
         bg = nord.none,
         style = bold
     }
     treesitter["@variable"] = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter["@variable.builtin"] = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter["@variable.global"] = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter["@boolean"] = {
@@ -903,26 +903,26 @@ theme.loadTreeSitter = function()
         style = bold
     }
     treesitter["@constant.builtin"] = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter["@constant.macro"] = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = bold
     }
     treesitter["@text.title"] = {
-        fg = nord.nord10_gui,
+        fg = named_colors.white,
         bg = nord.none,
         style = bold
     }
     treesitter["@text.strong"] = {
-        fg = nord.nord10_gui,
+        fg = named_colors.white,
         bg = nord.none,
         style = bold
     }
     -- Comments
     treesitter.TSComment = {
-        fg = nord.nord3_gui_bright,
+        fg = named_colors.white,
         style = italic
     }
     -- Conditionals
@@ -932,7 +932,7 @@ theme.loadTreeSitter = function()
     } -- For keywords related to conditionnals.
     -- Function names
     treesitter.TSFunction = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     } -- For fuction (calls and definitions).
     treesitter.TSMethod = {
@@ -940,20 +940,20 @@ theme.loadTreeSitter = function()
         style = italic
     } -- For method calls and definitions.
     treesitter.TSFuncBuiltin = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     -- Namespaces and property accessors
     treesitter.TSNamespace = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = italic
     } -- For identifiers referring to modules and namespaces.
     treesitter.TSField = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = italic
     } -- For fields.
     treesitter.TSProperty = {
-        fg = nord.nord10_gui,
+        fg = named_colors.white,
         style = italic
     } -- Same as `TSField`, but when accessing, not declaring.
     -- Language keywords
@@ -962,7 +962,7 @@ theme.loadTreeSitter = function()
         style = italic
     } -- For keywords that don't fall in other categories.
     treesitter.TSKeywordFunction = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter.TSKeywordReturn = {
@@ -970,7 +970,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter.TSKeywordOperator = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter.TSRepeat = {
@@ -979,24 +979,24 @@ theme.loadTreeSitter = function()
     } -- For keywords related to loops.
     -- Strings
     treesitter.TSString = {
-        fg = nord.nord14_gui,
+        fg = named_colors.white,
         style = italic
     } -- For strings.
     treesitter.TSStringRegex = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = italic
     } -- For regexes.
     treesitter.TSStringEscape = {
-        fg = nord.nord15_gui,
+        fg = named_colors.white,
         style = italic
     } -- For escape characters within a string.
     treesitter.TSCharacter = {
-        fg = nord.nord14_gui,
+        fg = named_colors.white,
         style = italic
     } -- For characters.
 
     treesitter["@comment"] = {
-        fg = nord.nord3_gui_bright,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@conditional"] = {
@@ -1004,27 +1004,27 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@function"] = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@method"] = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@function.builtin"] = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@namespace"] = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@field"] = {
-        fg = nord.nord4_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@property"] = {
-        fg = nord.nord10_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@keyword"] = {
@@ -1032,7 +1032,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@keyword.function"] = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@keyword.return"] = {
@@ -1040,7 +1040,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@keyword.operator"] = {
-        fg = nord.nord8_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@repeat"] = {
@@ -1048,19 +1048,19 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@string"] = {
-        fg = nord.nord14_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@string.regex"] = {
-        fg = nord.nord7_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@string.escape"] = {
-        fg = nord.nord15_gui,
+        fg = named_colors.white,
         style = italic
     }
     treesitter["@character"] = {
-        fg = nord.nord14_gui,
+        fg = named_colors.white,
         style = italic
     }
 
@@ -1073,7 +1073,7 @@ theme.loadFiletypes = function()
     local ft = {
         -- yaml
         yamlBlockMappingKey = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         yamlBool = {
             link = "Boolean"
@@ -1082,16 +1082,16 @@ theme.loadFiletypes = function()
             link = "Keyword"
         },
         yamlTSField = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         yamlTSString = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         yamlTSPunctSpecial = {
             link = "Keyword"
         },
         yamlKey = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         } -- stephpy/vim-yaml
     }
 
@@ -1103,52 +1103,52 @@ theme.loadLSP = function()
 
     local lsp = {
         LspDiagnosticsDefaultError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- used for "Error" diagnostic virtual text
         LspDiagnosticsSignError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- used for "Error" diagnostic signs in sign column
         LspDiagnosticsFloatingError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- used for "Error" diagnostic messages in the diagnostics float
         LspDiagnosticsVirtualTextError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- Virtual text "Error"
         LspDiagnosticsUnderlineError = {
             style = "undercurl",
-            sp = nord.nord11_gui
+            sp = named_colors.white
         }, -- used to underline "Error" diagnostics.
         LspDiagnosticsDefaultWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- used for "Warning" diagnostic signs in sign column
         LspDiagnosticsSignWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- used for "Warning" diagnostic signs in sign column
         LspDiagnosticsFloatingWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- used for "Warning" diagnostic messages in the diagnostics float
         LspDiagnosticsVirtualTextWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         }, -- Virtual text "Warning"
         LspDiagnosticsUnderlineWarning = {
             style = "undercurl",
-            sp = nord.nord15_gui
+            sp = named_colors.white
         }, -- used to underline "Warning" diagnostics.
         LspDiagnosticsDefaultInformation = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- used for "Information" diagnostic virtual text
         LspDiagnosticsSignInformation = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- used for "Information" diagnostic signs in sign column
         LspDiagnosticsFloatingInformation = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- used for "Information" diagnostic messages in the diagnostics float
         LspDiagnosticsVirtualTextInformation = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- Virtual text "Information"
         LspDiagnosticsUnderlineInformation = {
             style = "undercurl",
-            sp = nord.nord10_gui
+            sp = named_colors.white
         }, -- used to underline "Information" diagnostics.
         LspDiagnosticsDefaultHint = {
             fg = named_colors.white
@@ -1164,19 +1164,19 @@ theme.loadLSP = function()
         }, -- Virtual text "Hint"
         LspDiagnosticsUnderlineHint = {
             style = "undercurl",
-            sp = nord.nord10_gui
+            sp = named_colors.white
         }, -- used to underline "Hint" diagnostics.
         LspReferenceText = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         }, -- used for highlighting "text" references
         LspReferenceRead = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         }, -- used for highlighting "read" references
         LspReferenceWrite = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         }, -- used for highlighting "write" references
 
         DiagnosticError = {
@@ -1251,38 +1251,38 @@ theme.loadPlugins = function()
 
         -- LspTrouble
         LspTroubleText = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         LspTroubleCount = {
             fg = named_colors.white,
-            bg = nord.nord10_gui
+            bg = named_colors.white
         },
         LspTroubleNormal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.sidebar
         },
 
         -- Diff
         diffAdded = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         diffRemoved = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         diffChanged = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         diffOldFile = {
             fg = nord.yelow
         },
         diffNewFile = {
-            fg = nord.nord12_gui
+            fg = named_colors.white
         },
         diffFile = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         diffLine = {
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         diffIndexLine = {
             fg = named_colors.white
@@ -1290,90 +1290,90 @@ theme.loadPlugins = function()
 
         -- Neogit
         NeogitBranch = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         NeogitRemote = {
             fg = named_colors.white
         },
         NeogitHunkHeader = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         NeogitHunkHeaderHighlight = {
-            fg = nord.nord8_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         NeogitDiffContextHighlight = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         NeogitDiffDeleteHighlight = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             style = "reverse"
         },
         NeogitDiffAddHighlight = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = "reverse"
         },
 
         -- GitGutter
         GitGutterAdd = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         }, -- diff mode: Added line |diff.txt|
         GitGutterChange = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         GitGutterDelete = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- diff mode: Deleted line |diff.txt|
 
         -- GitSigns
         GitSignsAdd = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         }, -- diff mode: Added line |diff.txt|
         GitSignsAddNr = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         }, -- diff mode: Added line |diff.txt|
         GitSignsAddLn = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         }, -- diff mode: Added line |diff.txt|
         GitSignsChange = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         GitSignsChangeNr = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         GitSignsChangeLn = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         GitSignsDelete = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- diff mode: Deleted line |diff.txt|
         GitSignsDeleteNr = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- diff mode: Deleted line |diff.txt|
         GitSignsDeleteLn = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- diff mode: Deleted line |diff.txt|
         GitSignsCurrentLineBlame = {
-            fg = nord.nord3_gui_bright,
+            fg = named_colors.white,
             style = bold
         },
 
         -- Telescope
         TelescopePromptBorder = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         TelescopeResultsBorder = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         TelescopePreviewBorder = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         TelescopeSelectionCaret = {
             fg = named_colors.darker_white
         },
         TelescopeSelection = {
-            fg = nord.nord6_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         TelescopeMatching = {
             link = 'Search'
@@ -1381,71 +1381,71 @@ theme.loadPlugins = function()
 
         -- NvimTree
         NvimTreeRootFolder = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         NvimTreeSymlink = {
-            fg = nord.nord5_gui
+            fg = named_colors.white
         },
         NvimTreeFolderName = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NvimTreeFolderIcon = {
             fg = named_colors.white
         },
         NvimTreeEmptyFolderName = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NvimTreeOpenedFolderName = {
-            fg = nord.nord5_gui
+            fg = named_colors.white
         },
         NvimTreeExecFile = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NvimTreeOpenedFile = {
-            fg = nord.nord6_gui
+            fg = named_colors.white
         },
         NvimTreeSpecialFile = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = bold
         },
         NvimTreeImageFile = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NvimTreeMarkdownFile = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NvimTreeIndentMarker = {
             fg = named_colors.white
         },
         NvimTreeGitDirty = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         NvimTreeGitStaged = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         NvimTreeGitMerge = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         NvimTreeGitRenamed = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         }, -- diff mode: Changed line |diff.txt|
         NvimTreeGitNew = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         }, -- diff mode: Added line |diff.txt|
         NvimTreeGitDeleted = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         }, -- diff mode: Deleted line |diff.txt|
         NvimTreeGitIgnored = {
-            fg = nord.nord3_gui_bright
+            fg = named_colors.white
         },
         LspDiagnosticsError = {
-            fg = nord.nord12_gui
+            fg = named_colors.white
         },
         LspDiagnosticsWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         LspDiagnosticsInformation = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         LspDiagnosticsHint = {
             fg = named_colors.white
@@ -1453,58 +1453,58 @@ theme.loadPlugins = function()
 
         -- WhichKey
         WhichKey = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = bold
         },
         WhichKeyGroup = {
-            fg = nord.nord5_gui
+            fg = named_colors.white
         },
         WhichKeyDesc = {
-            fg = nord.nord7_gui,
+            fg = named_colors.white,
             style = italic
         },
         WhichKeySeperator = {
             fg = named_colors.white
         },
         WhichKeyFloating = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         WhichKeyFloat = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         WhichKeyValue = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
 
         -- LspSaga
         DiagnosticError = {
-            fg = nord.nord12_gui
+            fg = named_colors.white
         },
         DiagnosticWarning = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         DiagnosticInformation = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         DiagnosticHint = {
             fg = named_colors.white
         },
         DiagnosticTruncateLine = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         LspFloatWinBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaDefPreviewBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         DefinitionIcon = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         TargetWord = {
-            fg = nord.nord6_gui,
+            fg = named_colors.white,
             style = 'bold'
         },
         -- LspSaga code action
@@ -1512,78 +1512,78 @@ theme.loadPlugins = function()
             link = 'Title'
         },
         LspSagaCodeActionBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaCodeActionTrunCateLine = {
             link = 'LspSagaCodeActionBorder'
         },
         LspSagaCodeActionContent = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         -- LspSag finder
         LspSagaLspFinderBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaAutoPreview = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         LspSagaFinderSelection = {
-            fg = nord.nord6_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         TargetFileName = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         FinderParam = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bold = true
         },
         FinderVirtText = {
-            fg = nord.nord15_gui15,
+            fg = named_colors.white,
             bg = nord.none
         },
         DefinitionsIcon = {
             fg = named_colors.white
         },
         Definitions = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bold = true
         },
         DefinitionCount = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         ReferencesIcon = {
             fg = named_colors.white
         },
         References = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bold = true
         },
         ReferencesCount = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         ImplementsIcon = {
             fg = named_colors.white
         },
         Implements = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bold = true
         },
         ImplementsCount = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         -- LspSaga finder spinner
         FinderSpinnerBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         FinderSpinnerTitle = {
             link = 'Title'
         },
         FinderSpinner = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             bold = true
         },
         FinderPreviewSearch = {
@@ -1591,22 +1591,22 @@ theme.loadPlugins = function()
         },
         -- LspSaga definition
         DefinitionBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         DefinitionArrow = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DefinitionSearch = {
             link = 'Search'
         },
         DefinitionFile = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         -- LspSaga hover
         LspSagaHoverBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaHoverTrunCateLine = {
@@ -1614,11 +1614,11 @@ theme.loadPlugins = function()
         },
         -- Lsp rename
         LspSagaRenameBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaRenameMatch = {
-            fg = nord.nord6_gui,
+            fg = named_colors.white,
             bg = named_colors.white
         },
         -- Lsp diagnostic
@@ -1650,21 +1650,21 @@ theme.loadPlugins = function()
             link = 'DiagnosticHint'
         },
         LspSagaDiagnosticBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaDiagnosticHeader = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         DiagnosticQuickFix = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             bold = true
         },
         DiagnosticMap = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         DiagnosticLineCol = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         LspSagaDiagnosticTruncateLine = {
             link = 'LspSagaDiagnosticBorder'
@@ -1674,7 +1674,7 @@ theme.loadPlugins = function()
         },
         -- LspSaga signture help
         LspSagaSignatureHelpBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         LspSagaShTrunCateLine = {
@@ -1694,24 +1694,24 @@ theme.loadPlugins = function()
         },
         -- LspSaga Outline
         LSOutlinePreviewBorder = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         OutlineIndentEvn = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         OutlineIndentOdd = {
-            fg = nord.nord12_gui
+            fg = named_colors.white
         },
         OutlineFoldPrefix = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         OutlineDetail = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         -- LspSaga all floatwindow
         LspFloatWinNormal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.float
         },
         -- Saga End
@@ -1719,53 +1719,53 @@ theme.loadPlugins = function()
         -- Sneak
         Sneak = {
             fg = named_colors.black,
-            bg = nord.nord4_gui
+            bg = named_colors.white
         },
         SneakScope = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
 
         -- Cmp
         CmpItemKind = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         CmpItemAbbrMatch = {
-            fg = nord.nord5_gui,
+            fg = named_colors.white,
             style = bold
         },
         CmpItemAbbrMatchFuzzy = {
-            fg = nord.nord5_gui,
+            fg = named_colors.white,
             style = bold
         },
         CmpItemAbbr = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         CmpItemMenu = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
 
         -- Indent Blankline
         IndentBlanklineChar = {
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         IndentBlanklineContextChar = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
 
         -- headline
         -- bg = (10 * nord0 + fg) / 11
         Headline1 = {
-            fg = nord.nord12_gui,
+            fg = named_colors.white,
             bg = "#3d3c44",
             bold = true
         },
         Headline2 = {
-            fg = nord.nord13_gui,
+            fg = named_colors.white,
             bg = "#3f4247",
             bold = true
         },
         Headline3 = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             bg = "#394147",
             bold = true
         },
@@ -1775,194 +1775,194 @@ theme.loadPlugins = function()
             bold = true
         },
         Headline5 = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             bg = "#3a3c4a",
             bold = true
         },
         Headline6 = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = "#3d434f",
             bold = true
         },
 
         Quote = {
-            fg = nord.nord2_gui
+            fg = named_colors.white
         },
         CodeBlock = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         Dash = {
-            nord.nord10_gui,
+            named_colors.white,
             bold = true
         },
 
         -- Illuminate
         illuminatedWord = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
         illuminatedCurWord = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
         IlluminatedWordText = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
         IlluminatedWordRead = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
         IlluminatedWordWrite = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
 
         -- nvim-dap
         DapBreakpoint = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         DapStopped = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
 
         -- nvim-dap-ui
         DapUIVariable = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         DapUIScope = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIType = {
             fg = named_colors.white
         },
         DapUIValue = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         DapUIModifiedValue = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIDecoration = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIThread = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIStoppedThread = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIFrameName = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         DapUISource = {
             fg = named_colors.white
         },
         DapUILineNumber = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIFloatBorder = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIWatchesEmpty = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         DapUIWatchesValue = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIWatchesError = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         DapUIBreakpointsPath = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIBreakpointsInfo = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIBreakpointsCurrentLine = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         DapUIBreakpointsLine = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
 
         -- Hop
         HopNextKey = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = bold
         },
         HopNextKey1 = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = bold
         },
         HopNextKey2 = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         HopUnmatched = {
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
 
         -- Fern
         FernBranchText = {
-            fg = nord.nord3_gui_bright
+            fg = named_colors.white
         },
 
         -- nvim-ts-rainbow
         rainbowcol1 = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         rainbowcol2 = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         rainbowcol3 = {
-            fg = nord.nord11_gui
+            fg = named_colors.white
         },
         rainbowcol4 = {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         rainbowcol5 = {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         rainbowcol6 = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         rainbowcol7 = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
 
         -- lightspeed
         LightspeedLabel = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = bold
         },
         LightspeedLabelOverlapped = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = "bold,underline"
         },
         LightspeedLabelDistant = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             style = bold
         },
         LightspeedLabelDistantOverlapped = {
-            fg = nord.nord15_gui,
+            fg = named_colors.white,
             style = "bold,underline"
         },
         LightspeedShortcut = {
-            fg = nord.nord10_gui,
+            fg = named_colors.white,
             style = bold
         },
         LightspeedShortcutOverlapped = {
-            fg = nord.nord10_gui,
+            fg = named_colors.white,
             style = "bold,underline"
         },
         LightspeedMaskedChar = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui,
+            fg = named_colors.white,
+            bg = named_colors.white,
             style = bold
         },
         LightspeedGreyWash = {
-            fg = nord.nord3_gui_bright
+            fg = named_colors.white
         },
         LightspeedUnlabeledMatch = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         LightspeedOneCharMatch = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = "bold,reverse"
         },
         LightspeedUniqueChar = {
@@ -1971,18 +1971,18 @@ theme.loadPlugins = function()
 
         -- copilot
         CopilotLabel = {
-            fg = nord.nord3_gui,
+            fg = named_colors.white,
             bg = nord.none
         },
 
         -- Statusline
         StatusLineDull = {
-            fg = nord.nord3_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         StatusLineAccent = {
             fg = named_colors.black,
-            bg = nord.nord13_gui
+            bg = named_colors.white
         },
 
         -- mini.nvim
@@ -1991,14 +1991,14 @@ theme.loadPlugins = function()
         },
 
         MiniCursorword = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
         MiniCursorwordCurrent = {
-            bg = nord.nord3_gui
+            bg = named_colors.white
         },
 
         MiniIndentscopeSymbol = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         MiniIndentscopePrefix = {
             style = "nocombine"
@@ -2006,11 +2006,11 @@ theme.loadPlugins = function()
 
         MiniJump = {
             fg = named_colors.black,
-            bg = nord.nord4_gui
+            bg = named_colors.white
         },
 
         MiniJump2dSpot = {
-            fg = nord.nord12_gui,
+            fg = named_colors.white,
             style = "bold,nocombine"
         },
 
@@ -2018,7 +2018,7 @@ theme.loadPlugins = function()
             style = "nocombine"
         },
         MiniStarterFooter = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = italic
         },
         MiniStarterHeader = {
@@ -2031,63 +2031,63 @@ theme.loadPlugins = function()
             link = "Normal"
         },
         MiniStarterItemBullet = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         MiniStarterItemPrefix = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         MiniStarterSection = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         MiniStarterQuery = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
 
         MiniStatuslineDevinfo = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         MiniStatuslineFileinfo = {
-            fg = nord.nord4_gui,
-            bg = nord.nord2_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         MiniStatuslineFilename = {
-            fg = nord.nord4_gui,
-            bg = nord.nord1_gui
+            fg = named_colors.white,
+            bg = named_colors.white
         },
         MiniStatuslineInactive = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = named_colors.black,
             style = bold
         },
         MiniStatuslineModeCommand = {
             fg = named_colors.black,
-            bg = nord.nord15_gui,
+            bg = named_colors.white,
             style = bold
         },
         MiniStatuslineModeInsert = {
-            fg = nord.nord1_gui,
-            bg = nord.nord4_gui,
+            fg = named_colors.white,
+            bg = named_colors.white,
             style = bold
         },
         MiniStatuslineModeNormal = {
-            fg = nord.nord1_gui,
+            fg = named_colors.white,
             bg = named_colors.white,
             style = bold
         },
         MiniStatuslineModeOther = {
             fg = named_colors.black,
-            bg = nord.nord13_gui,
+            bg = named_colors.white,
             style = bold
         },
         MiniStatuslineModeReplace = {
             fg = named_colors.black,
-            bg = nord.nord11_gui,
+            bg = named_colors.white,
             style = bold
         },
         MiniStatuslineModeVisual = {
             fg = named_colors.black,
-            bg = nord.nord7_gui,
+            bg = named_colors.white,
             style = bold
         },
 
@@ -2096,62 +2096,62 @@ theme.loadPlugins = function()
         },
 
         MiniTablineCurrent = {
-            bg = nord.nord1_gui
+            bg = named_colors.white
         },
         MiniTablineFill = {
             link = "TabLineFill"
         },
         MiniTablineHidden = {
             bg = named_colors.black,
-            fg = nord.nord3_gui
+            fg = named_colors.white
         },
         MiniTablineModifiedCurrent = {
-            bg = nord.nord1_gui,
-            fg = nord.nord15_gui
+            bg = named_colors.white,
+            fg = named_colors.white
         },
         MiniTablineModifiedHidden = {
             bg = named_colors.black,
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         MiniTablineModifiedVisible = {
-            bg = nord.nord2_gui,
-            fg = nord.nord15_gui
+            bg = named_colors.white,
+            fg = named_colors.white
         },
         MiniTablineTabpagesection = {
-            fg = nord.nord10_gui,
-            bg = nord.nord6_gui,
+            fg = named_colors.white,
+            bg = named_colors.white,
             style = reverse_bold
         },
         MiniTablineVisible = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
 
         MiniTestEmphasis = {
             style = bold
         },
         MiniTestFail = {
-            fg = nord.nord11_gui,
+            fg = named_colors.white,
             style = bold
         },
         MiniTestPass = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = bold
         },
 
         MiniTrailspace = {
-            bg = nord.nord11_gui
+            bg = named_colors.white
         },
 
         -- Aerail
         AerialLine = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
         AerialLineNC = {
-            bg = nord.nord2_gui
+            bg = named_colors.white
         },
 
         AerialArrayIcon = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         AerialBooleanIcon = {
             fg = named_colors.white,
@@ -2161,7 +2161,7 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialConstantIcon = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         AerialConstructorIcon = {
             fg = named_colors.white
@@ -2170,25 +2170,25 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialEnumMemberIcon = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialEventIcon = {
             fg = named_colors.white
         },
         AerialFieldIcon = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialFileIcon = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         AerialFunctionIcon = vim.g.nord_italic and {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         AerialInterfaceIcon = {
             fg = named_colors.white
@@ -2197,28 +2197,28 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialMethodIcon = vim.g.nord_italic and {
-            fg = nord.nord7_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         AerialModuleIcon = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialNamespaceIcon = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialNullIcon = {
             fg = named_colors.white
         },
         AerialNumberIcon = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         AerialObjectIcon = {
             fg = named_colors.white
@@ -2227,36 +2227,36 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialPackageIcon = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialPropertyIcon = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         AerialStringIcon = vim.g.nord_italic and {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         AerialStructIcon = {
             fg = named_colors.white
         },
         AerialTypeParameterIcon = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         AerialVariableIcon = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = bold
         },
 
         AerialArray = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         AerialBoolean = {
             fg = named_colors.white,
@@ -2266,7 +2266,7 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialConstant = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         AerialConstructor = {
             fg = named_colors.white
@@ -2275,25 +2275,25 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialEnumMember = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialEvent = {
             fg = named_colors.white
         },
         AerialField = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialFile = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         AerialFunction = vim.g.nord_italic and {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord8_gui
+            fg = named_colors.white
         },
         AerialInterface = {
             fg = named_colors.white
@@ -2302,28 +2302,28 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialMethod = vim.g.nord_italic and {
-            fg = nord.nord7_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord7_gui
+            fg = named_colors.white
         },
         AerialModule = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialNamespace = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialNull = {
             fg = named_colors.white
         },
         AerialNumber = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         AerialObject = {
             fg = named_colors.white
@@ -2332,22 +2332,22 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialPackage = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         AerialProperty = vim.g.nord_italic and {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         AerialString = vim.g.nord_italic and {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = italic
         } or {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         AerialStruct = {
             fg = named_colors.white
@@ -2356,13 +2356,13 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         AerialVariable = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = bold
         },
 
         -- nvim-navic
         NavicIconsArray = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         NavicIconsBoolean = {
             fg = named_colors.white,
@@ -2372,7 +2372,7 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         NavicIconsConstant = {
-            fg = nord.nord13_gui
+            fg = named_colors.white
         },
         NavicIconsConstructor = {
             fg = named_colors.white
@@ -2381,20 +2381,20 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         NavicIconsEnumMember = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NavicIconsEvent = {
             fg = named_colors.white
         },
         NavicIconsField = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsFile = {
-            fg = nord.nord14_gui
+            fg = named_colors.white
         },
         NavicIconsFunction = {
-            fg = nord.nord8_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsInterface = {
@@ -2404,22 +2404,22 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         NavicIconsMethod = {
-            fg = nord.nord7_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsModule = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsNamespace = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsNull = {
             fg = named_colors.white
         },
         NavicIconsNumber = {
-            fg = nord.nord15_gui
+            fg = named_colors.white
         },
         NavicIconsObject = {
             fg = named_colors.white
@@ -2428,32 +2428,32 @@ theme.loadPlugins = function()
             fg = named_colors.white
         },
         NavicIconsPackage = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsProperty = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsString = {
-            fg = nord.nord14_gui,
+            fg = named_colors.white,
             style = italic
         },
         NavicIconsStruct = {
             fg = named_colors.white
         },
         NavicIconsTypeParameter = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         },
         NavicIconsVariable = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             style = bold
         },
         NavicText = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         },
         NavicSeparator = {
-            fg = nord.nord4_gui
+            fg = named_colors.white
         }
     }
     -- Options:
@@ -2461,24 +2461,24 @@ theme.loadPlugins = function()
     -- Disable nvim-tree background
     if vim.g.nord_disable_background then
         plugins.NvimTreeNormal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none
         }
     else
         plugins.NvimTreeNormal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.sidebar
         }
     end
 
     if vim.g.nord_enable_sidebar_background then
         plugins.NvimTreeNormal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.sidebar
         }
     else
         plugins.NvimTreeNormal = {
-            fg = nord.nord4_gui,
+            fg = named_colors.white,
             bg = nord.none
         }
     end
