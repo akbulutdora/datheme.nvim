@@ -74,7 +74,7 @@ theme.loadSyntax = function()
             fg = named_colors.darkest_white
         }, -- preprocessor #if, #else, #endif, etc.
         Special = {
-            fg = named_colors.white
+            fg = nord.nord4_gui
         }, -- any special symbol
         SpecialChar = {
             fg = nord.nord13_gui
