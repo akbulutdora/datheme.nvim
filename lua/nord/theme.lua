@@ -71,7 +71,7 @@ theme.loadSyntax = function()
             fg = named_colors.yellow
         }, -- A typedef
         PreCondit = {
-            fg = nord.nord13_gui
+            fg = named_colors.darkest_white
         }, -- preprocessor #if, #else, #endif, etc.
         Special = {
             fg = nord.nord4_gui
@@ -710,7 +710,7 @@ theme.loadTreeSitter = function()
             fg = nord.nord9_gui
         }, -- For any operator: `+`, but also `->` and `*` in C.
         TSParameter = {
-            fg = nord.nord10_gui
+            fg = named_colors.white
         }, -- For parameters of a function.
         TSParameterReference = {
             fg = nord.nord10_gui
