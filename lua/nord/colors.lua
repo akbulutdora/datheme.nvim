@@ -1,13 +1,13 @@
 local named_colors = require("nord.named_colors")
 
 local dark_colors = {
-    nord0_gui = named_colors.orange, -- nord0 in palette
-    nord1_gui = named_colors.orange, -- nord1 in palette
-    nord2_gui = named_colors.orange, -- nord2 in palette
-    nord3_gui = named_colors.orange, -- nord3 in palette
+    nord0_gui = named_colors.black, -- nord0 in palette
+    nord1_gui = named_colors.red, -- nord1 in palette
+    nord2_gui = named_colors.green, -- nord2 in palette
+    nord3_gui = named_colors.warn, -- nord3 in palette
     nord3_gui_bright = named_colors.orange, -- x out of palette x
-    nord4_gui = named_colors.orange, -- x nord4 in palette x
-    nord5_gui = named_colors.orange, -- nord5 in palette
+    nord4_gui = named_colors.debug, -- x nord4 in palette x
+    nord5_gui = named_colors.info, -- nord5 in palette
     nord6_gui = named_colors.orange, -- nord6 in palette
     nord7_gui = named_colors.orange, -- nord7 in palette
     nord8_gui = named_colors.orange, -- nord8 in palette
