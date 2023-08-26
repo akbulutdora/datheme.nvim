@@ -171,7 +171,7 @@ theme.loadSyntax = function()
             style = italic
         }, -- italic funtion names
         Identifier = {
-            fg = nord.nord9_gui,
+            fg = named_colors.white,
             style = italic
         }, -- any variable name
         Keyword = {
