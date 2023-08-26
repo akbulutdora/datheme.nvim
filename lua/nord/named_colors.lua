@@ -30,7 +30,6 @@ local nord = {
     orange = "#FF9B21", -- x nord12 in palette
     yellow = "#FFDD33", -- x nord13 in palette
     green = "#79BF46", -- x nord14 in palette
-    purple = "#B48EAD", -- nord15 in palette
     debug = "#B267E6",
     none = "NONE"
 }
