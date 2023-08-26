@@ -74,13 +74,13 @@ theme.loadSyntax = function()
             fg = named_colors.darkest_white
         }, -- preprocessor #if, #else, #endif, etc.
         Special = {
-            fg = nord.nord4_gui
+            fg = named_colors.red
         }, -- any special symbol
         SpecialChar = {
-            fg = nord.nord13_gui
+            fg = named_colors.teal
         }, -- special character in a constant
         Tag = {
-            fg = nord.nord4_gui
+            fg = named_colors.purple
         }, -- you can use CTRL-] on this
         Delimiter = {
             fg = named_colors.white
@@ -209,8 +209,8 @@ theme.loadEditor = function()
             fg = nord.nord1_gui
         }, -- placeholder characters substituted for concealed text (see 'conceallevel')
         Cursor = {
-            fg = nord.nord4_gui,
-            bg = nord.none,
+            fg = named_colors.black,
+            bg = named_colors.yellow,
             style = "reverse"
         }, -- the character under the cursor
         CursorIM = {
