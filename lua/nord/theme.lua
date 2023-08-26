@@ -175,7 +175,7 @@ theme.loadSyntax = function()
             style = italic
         }, -- any variable name
         Keyword = {
-            fg = nord.nord9_gui,
+            fg = named_colors.yellow,
             style = italic
         }, -- italic for, do, while, etc.
         Repeat = {
