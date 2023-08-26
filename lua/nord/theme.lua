@@ -1,5 +1,5 @@
 local nord = require("nord.colors")
-
+local named_colors = require("nord.named_colors")
 local theme = {}
 
 local italic = vim.g.nord_italic == false and nord.none or "italic"
@@ -20,7 +20,7 @@ theme.loadSyntax = function()
     -- Syntax highlight groups
     return {
         Type = {
-            fg = nord.nord9_gui
+            fg = named_colors.darkest_white
         }, -- int, long, char, etc.
         StorageClass = {
             fg = nord.nord9_gui
@@ -163,7 +163,7 @@ theme.loadSyntax = function()
             style = italic
         }, -- italic comments
         Conditional = {
-            fg = nord.yellow,
+            fg = named_colors.yellow,
             style = italic
         }, -- italic if, then, else, endif, switch, etc.
         Function = {
@@ -966,7 +966,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter.TSKeywordReturn = {
-        fg = nord.yellow,
+        fg = named_colors.yellow,
         style = italic
     }
     treesitter.TSKeywordOperator = {
@@ -1036,7 +1036,7 @@ theme.loadTreeSitter = function()
         style = italic
     }
     treesitter["@keyword.return"] = {
-        fg = nord.yellow,
+        fg = named_colors.yellow,
         style = italic
     }
     treesitter["@keyword.operator"] = {
